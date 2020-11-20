@@ -2,7 +2,7 @@ FROM ubuntu:focal
 
 # Metadata
 LABEL base.image="ubuntu:focal"
-LABEL description="An Ubuntu container to use whenever Alpine doesn't suffice for any reasom."
+LABEL description="An Ubuntu container to use whenever Alpine doesn't suffice for any reason."
 LABEL maintainer="Alejandro Madrigal Leiva"
 LABEL maintainer.email="me@alemadlei.tech"
 

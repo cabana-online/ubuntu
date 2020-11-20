@@ -28,7 +28,11 @@ RUN \
     addgroup --gid "${CABANA_GROUP_ID}" --quiet $USER; \
     adduser --gid "${CABANA_GROUP_ID}" --uid ${CABANA_USER_ID} --disabled-password --gecos "" $USER;
 
-USER cabana
-
 # Sets working directory.
 WORKDIR $HOME
+
+# Creates work folders.
+RUN mkdir data tools
+
+# Changes work user.
+USER cabana

@@ -1,2 +1,2 @@
-# ubuntu
-A minimal ubuntu image for specific scenarios where alpine does not suffice.
+# Ubuntu base container
+A minimal Ubuntu image for specific scenarios where alpine does not suffice.

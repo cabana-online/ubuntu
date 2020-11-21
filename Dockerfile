@@ -32,7 +32,9 @@ RUN \
 WORKDIR $HOME
 
 # Creates work folders.
-RUN mkdir data tools
+RUN mkdir data tools && \
+    chown -R $USER:$USER data && \
+    chown -R $USER:$USER tools;
 
 # Changes work user.
 USER cabana

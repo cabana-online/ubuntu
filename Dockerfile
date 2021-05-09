@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:14.04
 
 # Metadata
 LABEL base.image="ubuntu:focal"

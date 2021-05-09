@@ -1,6 +1,6 @@
 REPO = cabanaonline/ubuntu
 NAME = ubuntu
-TAG = 1.0
+TAG = 14.04
 
 .PHONY: build test push shell run start stop logs clean release
 
